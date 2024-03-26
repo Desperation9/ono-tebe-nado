@@ -16,7 +16,7 @@ p {
 
 li {
     list-style: none; 
-  }
+}
 
 /* форматирование текста */
 .text__menu { 
@@ -60,6 +60,8 @@ li {
 .header__image {
     width: 148px;
     height: 105px;
+    background: url(../images/logo-black.svg) no-repeat center / contain;
+    background-position: 10px;
 }
 
 .header__links-list {
@@ -218,7 +220,6 @@ li {
     font-weight: 400;
     line-height: 24px;
     text-align: left;
-    text-decoration: none;
     border-bottom: 0;
     color: white;
     align-items: flex-end;
@@ -244,8 +245,6 @@ li {
     line-height: 23.48px;
     text-align: left;
     text-decoration: none;
-    text-decoration: underline 1px;
-    text-underline-offset: 4px;
     display: block;
     align-items: end;
 }
@@ -290,7 +289,7 @@ li {
     font-size: 20px;
     font-weight: 400;
     line-height: 24px;
-    text-align: left;    
+    text-align: left;
 }
 
 /* Стили для подвала */
