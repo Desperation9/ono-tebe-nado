@@ -16,19 +16,32 @@ h3,
 h4,
 h5,
 h6,
-p,
 ul,
 ol,
-li,
-blockquote {
+blockquote,
+address,
+button {
   margin: 0;
   padding: 0;
 }
 
 a {
   color: inherit;
+  text-decoration: underline 1px;
+  text-underline-offset: 4px;
 }
 
 img {
   width: 100%;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
